@@ -1,0 +1,63 @@
+{
+  "name": "aqa_course_hw_unit_tests",
+  "version": "1.0.0",
+  "description": "```js\r npm install\r ```",
+  "type": "commonjs",
+  "scripts": {
+    "hw-5-1": "jest tests/js/hw-5/task-1.test.js",
+    "hw-5-2": "jest tests/js/hw-5/task-2.test.js",
+    "hw-5-3": "jest tests/js/hw-5/task-3.test.js",
+    "hw-6-1": "jest tests/js/hw-6/task-1.test.js",
+    "hw-6-2": "jest tests/js/hw-6/task-2.test.js",
+    "hw-6-3": "jest tests/js/hw-6/task-3.test.js",
+    "hw-7-1": "jest tests/js/hw-7/task-1.test.js",
+    "hw-7-2": "jest tests/js/hw-7/task-2.test.js",
+    "hw-7-3": "jest tests/js/hw-7/task-3.test.js",
+    "hw-8-1": "jest tests/js/hw-8/task-1.test.js",
+    "hw-8-2": "jest tests/js/hw-8/task-2.test.js",
+    "hw-8-3": "jest tests/js/hw-8/task-3.test.js",
+    "hw-9-1": "jest tests/js/hw-9/task-1.test.js",
+    "hw-9-2": "jest tests/js/hw-9/task-2.test.js",
+    "hw-10-1": "jest tests/js/hw-10/task-1.test.js",
+    "hw-10-2": "jest tests/js/hw-10/task-2.test.js",
+    "hw-10-3": "jest tests/js/hw-10/task-3.test.js",
+    "hw-11-1": "jest tests/js/hw-11/task-1.test.js",
+    "hw-11-2": "jest tests/js/hw-11/task-2.test.js",
+    "hw-11-3": "jest tests/js/hw-11/task-3.test.js",
+    "hw-5-set": "npm run hw-5-1 ; npm run hw-5-2 ; npm run hw-5-3",
+    "hw-6-set": "npm run hw-6-1 ; npm run hw-6-2 ; npm run hw-6-3",
+    "hw-7-set": "npm run hw-7-1 ; npm run hw-7-2 ; npm run hw-7-3",
+    "hw-8-set": "npm run hw-8-1 ; npm run hw-8-2 ; npm run hw-8-3",
+    "hw-9-set": "npm run hw-9-1 ; npm run hw-9-2",
+    "hw-10-set": "npm run hw-10-1 ; npm run hw-10-2 ; npm run hw-10-3",
+    "hw-11-set": "npm run hw-11-1 ; npm run hw-11-2 ; npm run hw-11-3",
+    "pre-commit": "prettier . --write ; git add -A ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.7.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.25.9",
+    "@babel/preset-env": "^7.26.0",
+    "@types/jest": "^29.5.14",
+    "husky": "^9.1.6",
+    "prettier": "^3.3.3",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.6.3"
+  },
+  "main": "jest.config.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dan0ne1/aqa_course_hw_unit_tests.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Dan0ne1/aqa_course_hw_unit_tests/issues"
+  },
+  "homepage": "https://github.com/Dan0ne1/aqa_course_hw_unit_tests#readme"
+}
