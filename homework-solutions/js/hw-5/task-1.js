@@ -1,6 +1,6 @@
 "use strict";
 
-const SEPARATOR = '================================';
+const SEPARATOR = '=========================================================';
 
 console.log(SEPARATOR);
 
@@ -54,6 +54,6 @@ const text = 'Hello! I am a JS student!';
 let replaceSpacesWithOneResult = text.split(' ').join('1');
 console.log('replaceSpacesWithOneResult:', replaceSpacesWithOneResult);
 
-export { evenNumbersResult, smilePatternResult, replaceSpacesWithOneResult };
-
 console.log(SEPARATOR);
+
+export { evenNumbersResult, smilePatternResult, replaceSpacesWithOneResult };
