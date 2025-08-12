@@ -12,10 +12,10 @@ let maxAge = 60;
 let age = 60;
 
 // 4. Добавьте проверку: если тип данных в переменной age не number - вывести в консоль Incorrect data type
-if (typeof age === 'number'){         // но видел что есть еше такой вариант if (isNaN(age)) {}
-  console.log('It is a number!');
-} else {
+if (typeof age !== 'number') {
   console.log('Incorrect data type');
+} else {
+  console.log('It is a number!');
 }
 
 // 5. Создать if в котором будете проверять весь код переменной age со следующими условиями:
