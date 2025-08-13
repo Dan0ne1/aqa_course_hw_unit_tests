@@ -1,7 +1,7 @@
 {
   "name": "aqa_course_hw_unit_tests",
   "version": "1.0.0",
-  "description": "",
+  "description": "```js\r npm install\r ```",
   "type": "commonjs",
   "scripts": {
     "hw-5-1": "jest tests/js/hw-5/task-1.test.js",
@@ -43,8 +43,21 @@
     "@babel/preset-env": "^7.26.0",
     "@types/jest": "^29.5.14",
     "husky": "^9.1.6",
-    "prettier": "3.3.3",
+    "prettier": "^3.3.3",
     "ts-jest": "^29.2.5",
     "typescript": "^5.6.3"
-  }
+  },
+  "main": "jest.config.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dan0ne1/aqa_course_hw_unit_tests.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Dan0ne1/aqa_course_hw_unit_tests/issues"
+  },
+  "homepage": "https://github.com/Dan0ne1/aqa_course_hw_unit_tests#readme"
 }
